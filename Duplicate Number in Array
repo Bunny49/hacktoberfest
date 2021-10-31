@@ -1,0 +1,14 @@
+#include <stdio.h>
+int main(void){
+int nums[10]={100, 200, 100, 500, 300, 500, 900, 400,100, 300};
+printf("Duplicate Numbrs are present at the postion: \n");
+for(int i=0;i<10; i++){
+        for(int j=i+1;j<10; j++){
+            if(nums[i]==nums[j]){
+                printf("(%d,%d)\n",i,j);
+                break;
+}
+}
+}
+return 0;
+}
